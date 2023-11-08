@@ -1,0 +1,921 @@
+.main-container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px;
+
+}
+
+.notfound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 700px;
+  flex-direction: column;
+}
+
+.notfound p {
+  color: white;
+}
+
+.notfound h1 {
+  color: white;
+}
+
+
+
+/* Add this to your CSS */
+.card-not-clickable {
+  pointer-events: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: none !important;
+  width: 95% !important;
+  height: 100%;
+}
+
+
+
+
+
+
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+  top: 0;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: auto;
+  overflow: hidden;
+  padding-bottom: 10px;
+
+}
+
+.custom-navbar {
+  width: 100% !important;
+  margin-bottom: 10px !important;
+  color: white !important;
+}
+
+.nav-items {
+  color: #ffffff !important;
+  /* text color */
+  margin-left: 35px !important;
+  width: 100% !important;
+  background-color: transparent;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+
+}
+
+
+
+/* card-section  */
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  /*border:1px solid purple; */
+  width: 100%;
+  padding: 10px;
+  margin-top: 40px;
+  color: white;
+  flex-direction: column;
+
+}
+
+.poolscontainer {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  overflow: hidden;
+
+}
+
+
+.Airdrop-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.Airdrop-card {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ffffff30;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  padding: 10px;
+}
+
+.btn-claim {
+  background-color: #1E90FF;
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.dai-usdt-card {
+  width: 100% !important;
+}
+
+.pool1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: start;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+  width: 95% !important;
+  background-color: #0a4545 !important;
+  height: 100% !important;
+  border: 2px solid #ffffff30;
+}
+
+
+
+
+
+.pools-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95% !important;
+}
+
+.percentage {
+  color: green;
+  margin-left: 10px;
+  font-size: 20px !important;
+}
+
+.heading{
+ 
+  margin-top: 4px;
+  font-size: 40px !important;
+  color:green;
+
+}
+.details {
+  width: 100%;
+  margin-bottom: 5px;
+  color: green !important;
+}
+
+.usdt {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 2px solid #ffffff30;
+}
+
+.asset-descriptionContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+
+}
+
+.days-btnContainer {
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: center;
+  padding: 0 !important;
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+.daysbnt {
+  margin: 10px !important;
+  width: 75px !important;
+  background-color: #198754 !important;
+  color: #ffffff !important;
+  border:none !important;
+  
+}
+.days h4{
+  margin-bottom: 5px;
+}
+
+.check-container {
+  display: flex;
+  width: 100% !important;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+
+}
+
+.check {
+  margin: 10px !important;
+  width: 100% !important;
+}
+
+
+.check-btn {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+
+}
+
+
+.lending-portal {
+  width: 100%;
+  height: 100% !important;
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.cardlogo {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ffffff30;
+  padding: 0 !important;
+}
+
+.asset-imageContainer {
+  margin-right: 10px !important;
+  padding: 0px !important;
+
+}
+
+.lending-portal h3 {
+  margin-top: 40px;
+}
+
+.lending-text-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.form {
+  border: 1px solid gray;
+  margin-top: 40px !important;
+  padding: 10px !important;
+  border-radius: 16px;
+
+}
+
+
+.inputGroup {
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+.custom-input {
+  border-radius: 10px !important;
+
+}
+
+
+
+.spn {
+  color: green !important;
+}
+
+.approvebtn,
+.refferalbtn,
+.button {
+  border-radius: 8px !important;
+  border: 1px solid gray !important;
+
+}
+
+
+.package-card {
+  border-radius: 5px !important;
+  border: 1px solid gray !important;
+  margin-top: 5px !important;
+}
+
+
+/* NAV BAR SECTION   */
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .presale-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  .progress-bar {
+    width: 50%;
+  }
+
+  .Airdrop-card {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ffffff30;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .poolscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .presale-pool-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .presaleCard {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+
+  .pools-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+    color: white;
+    flex-direction: column;
+    overflow: hidden;
+
+  }
+
+
+  .pools-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .check-btn {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding: 0px !important;
+  }
+
+  .check-container {
+    padding-left: 0 !important;
+  }
+
+  .check-container a {
+    width: 100% !important;
+    padding-left: 0 !important;
+    margin: 0;
+  }
+
+  .check {
+    margin: 0 !important;
+  }
+
+  .card-not-clickable {
+
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .lending-check-btn-div {
+    margin-bottom: 10px !important;
+  }
+
+  .airdrop-btn-div {
+    width: 100% !important;
+
+  }
+
+  .Airdrop-section {
+    margin-bottom: 40px;
+  }
+
+  .card-container h1 {
+    text-align: center;
+  }
+
+  .connect-btn {
+    margin-top: 20px !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    padding-right: 0 !important;
+
+  }
+
+  .days-btnContainer {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center;
+    padding: 0 !important;
+    width: 100%;
+    margin-bottom: 10px;
+
+
+  }
+
+  .day15btn {
+    margin-left: 0 !important;
+  }
+
+  .airdrop-btn-div {
+    width: 100% !important;
+  }
+
+  .link {
+    width: 100% !important;
+  }
+
+
+  /* !!!: PRESALE CSS */
+  .presale-container {
+    width: 95%;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 30px;
+  }
+
+  .deposit-form {
+    border-radius: 6px;
+    background-color: #0a4545 !important;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+    width: 100% !important;
+    margin-top: 30px;
+    border: 2px solid #ffffff30;
+    border: 2px solid #ffffff30;
+  }
+
+  .inputBox {
+    display: flex;
+    border: 2px solid #198754;
+    border-radius: 5px;
+    width: 100% !important;
+    position: relative;
+    text-align: center;
+
+  }
+
+  .deposit-form label {
+    margin-bottom: 6px;
+    color: #ffffff;
+    align-items: left;
+    margin-left: 0;
+  }
+
+  .inputBox input {
+    padding: 15px 20px;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    color: #e8e8e8;
+    border: 1px solid #e8e8e810;
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .deposit-btn {
+    background-color: #198754 !important;
+    color: #ffffff !important;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding-inline: 4px;
+    /* Adjust the value to your desired padding-x */
+    padding-block: 12px;
+    margin-top: 25px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease !important;
+    border: none;
+  }
+
+  .usdt-btn {
+    background-color: transparent;
+    border: none !important;
+    border-left: gray 3px !important;
+    padding: 8px;
+    cursor: none;
+  }
+
+  .usdt-bep20 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
+
+  .presale-description {
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: #0a4545 !important;
+    border: 2px solid #ffffff30;
+  }
+
+  .presale-description h4 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .progress-bar {
+    width: 100%;
+  }
+
+  /* !!!: PRESALE CSS ENDS HERE */
+
+
+}
+
+
+
+
+
+
+
+
+
+.lumdiv {
+
+  height: 100% !important;
+}
+
+
+.exchanges {
+  color: #198754 !important;
+  margin-top: 6px !important;
+}
+
+.check-btn {
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding: 0px !important;
+}
+
+.check-container {
+  padding-left: 0 !important;
+}
+
+.check-container a {
+  width: 100% !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.check {
+  margin: 0 !important;
+}
+
+.card-not-clickable {
+
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.lending-check-btn-div {
+  margin-bottom: 10px !important;
+}
+
+.airdrop-btn-div {
+  width: 100% !important;
+
+}
+
+.Airdrop-section {
+  margin-bottom: 70px;
+
+}
+
+.card-container h1 {
+  text-align: center;
+}
+
+
+
+
+/* !!!: PRESALE CSS */
+@media only screen and (min-width: 768px) {
+  .presale-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  .progress-bar {
+    width: 60%;
+  }
+
+  .presale-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  .deposit-form label {
+    margin-bottom: 6px;
+    color: #ffffff;
+    align-items: left;
+    margin-left: 0 !important;
+    text-align: left !important;
+  }
+
+  .deposit-form {
+    margin-bottom: 15px;
+    border-radius: 6px;
+    background-color: #0a4545;
+    border: 2px solid #ffffff30;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+    width: 30% !important;
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 100%;
+  }
+
+  .presale-description {
+    width: 30%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #0a4545 !important;
+    height: 100%;
+    border: 2px solid #ffffff30;
+  }
+
+  /* .progress-bar {
+    width: 100%;
+  } */
+
+  .details {
+    width: 100%;
+    margin-bottom: 5px;
+    color: green !important;
+  }
+}
+
+
+
+.inputBox {
+  display: flex;
+  border: 2px solid #198754;
+  border-radius: 5px;
+  width: 100% !important;
+  margin-bottom: 15px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.inputBox input {
+  padding: 15px 20px;
+  outline: none;
+  background: transparent;
+  border-radius: 5px;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e810;
+  font-size: 1em;
+  width: 100%;
+}
+
+.deposit-btn {
+  background-color: #198754 !important;
+  color: #ffffff !important;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 4px;
+  padding-inline: 4px;
+  /* Adjust the value to your desired padding-x */
+  padding-block: 12px;
+  margin-top: 25px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold !important;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease !important;
+  border: none;
+}
+
+.exchange-btn{
+  background-color: #198754 !important;
+  color: #ffffff !important;
+  border-radius:5px;
+  border:none;
+  margin: 2px;
+  padding: 2px;
+}
+.usdt-btn {
+  background-color: transparent;
+  border: none !important;
+  border-left: gray 3px !important;
+  padding: 8px;
+  cursor: none;
+}
+
+.usdt-bep20 {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+
+
+/* !!!: PRESALE CSS ENDS HERE */
+
+
+
+.nav-button {
+  margin-left: 20px !important;
+}
+
+a.nav-link {
+  color: white;
+}
+
+a.nav-link:hover {
+  color: green;
+}
+
+.row1 {
+
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100% !important;
+  height: 100%;
+  margin: auto;
+  padding-right: 7px !important;
+}
+
+#dashboard {
+
+
+  margin: auto;
+  margin-top: 100px !important;
+  padding: auto !important;
+  width: 100% !important;
+  margin-right: 30px !important;
+  top: 100px !important;
+}
+
+
+
+
+.logosection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#dashboard {
+
+  width: 100% !important;
+}
+
+/* logo  */
+
+
+
+/* footer section  */
+.footer-section {
+  width: 100%;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #0a4545 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+  padding-left: 10px;
+  list-style: none !important;
+
+}
+
+li {
+  list-style: none;
+  margin: 5px;
+  color: white !important;
+}
+
+a {
+  text-decoration: none !important;
+  list-style: none;
+  margin: 5px;
+  color: white !important;
+  /* Set text color to white */
+
+}
+
+li a {
+  text-decoration: none;
+  /* Remove underline */
+  color: white !important;
+  /* Set text color to white */
+}

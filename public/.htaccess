@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+
+# Handle static files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Handle all other requests by routing them to index.html
+RewriteRule ^ index.html [L]

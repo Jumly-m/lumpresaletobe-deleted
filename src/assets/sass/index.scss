@@ -1,0 +1,139 @@
+@import 'config';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+$flex-center: (
+  display: flex,
+  justify-content: center,
+  align-items: center
+);
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: $font-stack;
+}
+
+#navbar {
+  padding: 0;
+  color: $white;
+  margin-top: 90px;
+  margin-left: 10%;
+  margin-right: 10%;
+  .headNav {
+    color: white;
+    font-size: 36px;
+  }
+  button {
+    margin-top: -10px;
+    background: $btn-color;
+    border-radius: 0;
+    border: none;
+  }
+
+}
+
+#dashboard {
+  margin: 5% 10%;
+  width: auto;  
+  color: $white;
+
+  .card1, .card2, .card3, .card4 {
+    margin-bottom: 15px;
+    background-color: $card-color;
+    .button {
+      width: 100%;
+      padding: 12px;
+    }
+  }
+
+  .button {
+    border-radius: 0;
+    background: $btn-color;
+    border: none;
+  }
+
+  .card3 {
+    height: 100%;
+    .custom-input {
+      background-color: rgba(1, 255, 254, 0.14);
+      color: white;
+      padding: 20px;
+      border: none;
+      border-radius: 0%;
+      
+    }
+    .input-group-text {
+    background-color: rgba(1, 255, 254, 0.14);
+      border: none;
+     color: $white;
+     border-radius: 0; 
+  }
+  }
+
+  .main-head {
+    color: $white;
+    margin-bottom: 5%;
+  }
+  .cardHead {
+    font-size: 70px;
+    margin-top: -50px;
+  }
+  .green {
+    color: #00C48C;
+  }
+  .red {
+    color: #FF3F3F;
+  }
+  .gray {
+    color: gray
+  }
+  .spn {
+    color: rgba(31, 108, 208, 0.915);
+  }
+  
+  .package-card {
+    border: 1px solid white;
+    border-radius: 0;
+    background-color: transparent;
+    color: rgba(186, 176, 176, 1);
+  
+    
+    cursor: pointer;
+    transition: background-color 0.1s;
+    &.active {
+      background: $btn-color;
+      color: $white;
+    }
+  .card-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 2px;
+  }
+  .card-body {
+    font-size: 9px;
+    padding: 0;
+  }
+  }
+  .min-dep {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 992px) {
+  .scrollable-cards {
+    height: 650px; /* Adjust the height as per your requirement */
+    overflow-y: auto;
+  }
+}
+
